@@ -4,7 +4,7 @@
     * Virtualizable Behavior for CakePHP 1.3
     * 
     * A Behavior to help manage virtualFields during finds - based largely on the ebook CakePHP 1.3 Application
-    * Developlment by Mariano Iglesias - Chapter
+    * Developlment by Mariano Iglesias - Chapter 3 'Pushing the Search'
     *
     * @author Abba James Bryant
     */
