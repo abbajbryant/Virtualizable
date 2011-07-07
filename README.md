@@ -68,7 +68,7 @@ Using this behavior we have access to a 'virtualFields' key in the Model::find o
             )));
 
             debug( $this->User->find( 'all', array(
-                'fields' => array( 'id', 'slug' ),
+                'fields' => array( 'id' ),
                 'virtualFields' => array( 'name', 'otherField' ),
             )));            
         }
