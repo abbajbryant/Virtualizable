@@ -82,6 +82,7 @@
         * @param Model Model
         * @param array $result
         * @param $primary boolean
+        * @access public
         */
         public function afterFind( &$Model, $results, $primary = false ){ 
             if( !empty( $this->_backVirtualFields[ $Model->alias ] )){
